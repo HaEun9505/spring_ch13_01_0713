@@ -17,7 +17,7 @@ public class FormController {
 	}
 	
 //	@RequestMapping("/loginOk")
-//	//request객체를 받음
+//	//request(파라미터 값 받을 객체),	Model(데이터를 담아 view로 전달하는 객체)
 //	public String loginOk(HttpServletRequest request, Model model) {	
 //		
 //		String id = request.getParameter("id");
@@ -58,7 +58,7 @@ public class FormController {
 	//MemberDto로 만든 데이터 객체 view(jsp)에 전달
 	public String joinOk(MemberDto memberDto) {
 		
-		//생략
+		//model 생략 가능
 //		model.addAttribute("memberDto", memberDto);
 		
 		return "joinOk";

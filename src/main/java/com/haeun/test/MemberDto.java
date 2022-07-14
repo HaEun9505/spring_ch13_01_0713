@@ -1,5 +1,6 @@
 package com.haeun.test;
 
+//Dto - 값(멤버변수)들을 한번에 저장할 데이터 구조(데이터 이동 객체)
 public class MemberDto {
 	
 	private String name;
